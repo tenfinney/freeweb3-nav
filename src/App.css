@@ -1,0 +1,34 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #1071e5;
+  /* overflow: hidden; */
+}
+
+.container {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: #1071e5; /* Set background color to #1071e5 */
+}
+
+.image-link {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  margin-bottom: -5px; /* Remove gap between images */
+}
+
+
+.image-link img {
+  width: 100%;
+  height: auto;
+}
+
+.link {
+position: absolute;
+display: block;
+/*  background: rgba(255, 255, 255, 0.2); Semi-transparent red for visibility */
+}
